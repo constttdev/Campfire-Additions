@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "campfire_additions",
+  "version": "${version}",
+  "name": "Campfire Additions",
+  "description": "Additions to Campfires",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/campfire_additions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "de.constt.campfire_additions.client.Campfire_additionsDataGenerator"
+    ],
+    "client": [
+      "de.constt.campfire_additions.client.Campfire_additionsClient"
+    ],
+    "main": [
+      "de.constt.campfire_additions.Campfire_additions"
+    ]
+  },
+  "mixins": [
+    "campfire_additions.mixins.json",
+    {
+      "config": "campfire_additions.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
