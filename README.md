@@ -1,5 +1,7 @@
 ## Campfire Additions
-Additions to Campfires
+Additions to Campfires such as being able to use Logs on Campfires to turn it into Charcoal.
+
+For any suggestions, please type your suggestions into the suggestions channel on my discord server.
 ### Links
 <div style="display: flex; gap: 9px;">
     <a href="https://modrinth.com/mod/campfire-additions">
