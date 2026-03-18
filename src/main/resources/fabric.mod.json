@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Campfire Additions",
   "description": "Additions to Campfires",
-  "authors": [],
+  "authors": ["constt"],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/campfire_additions/icon.png",
