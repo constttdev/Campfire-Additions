@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "campfire_additions",
+  "category": "blocks",
+  "ingredient": "#minecraft:logs",
+  "result": {
+    "id": "minecraft:charcoal"
+  },
+  "experience": 0.3,
+  "cookingtime": 120
+}
